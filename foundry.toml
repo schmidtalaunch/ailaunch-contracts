@@ -1,0 +1,18 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+auto_detect_solc = true
+optimizer_runs = 11111
+via_ir = true
+evm_version = "cancun"
+
+
+etherscan_api_key = ""
+
+[rpc_endpoints]
+
+avax = "https://avax-mainnet.g.alchemy.com/v2/M8q4VvFd1EMDFRzZ1XZDIV6Zd0cr7KMl"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
